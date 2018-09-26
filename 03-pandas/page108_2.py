@@ -4,7 +4,6 @@ import pandas as pd
 
 from pymongo import MongoClient
 
-
 # 需要链接本地mongo数据库，但本地mongo数据库我没有设置所以无法来连接
 client = MongoClient()
 
