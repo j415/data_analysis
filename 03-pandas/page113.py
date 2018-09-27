@@ -6,7 +6,7 @@ df = pd.read_csv("files/dogNames2.csv")
 #
 # print(df.head())
 # print(df.info())
-
+print(df)
 
 # dataFrame中排序的方法
 df = df.sort_values(by="Count_AnimalName", ascending=False)
