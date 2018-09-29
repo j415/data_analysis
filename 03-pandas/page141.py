@@ -33,7 +33,7 @@ _x = grouped.index
 _y = grouped.values
 
 # 画图
-plt.figure(figsize=(20,8),dpi=80)
-plt.plot(range(len(_x)),_y)
-plt.xticks(list(range(len(_x)))[::10],_x[::10].astype(int),rotation=45)
+plt.figure(figsize=(20, 8), dpi=80)
+plt.plot(range(len(_x)), _y)
+plt.xticks(list(range(len(_x)))[::10], _x[::10].astype(int), rotation=45)
 plt.show()
